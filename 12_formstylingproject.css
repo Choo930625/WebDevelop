@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #093c50;
+}
+
+.form {
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    padding : 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.information {
+    margin-bottom: 20px;
+}
+
+.information input {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#signup {
+    border: none;
+    width: 90%;
+    color:white;
+    border-radius: 5px;
+    background-color: #4DD79F;
+}
+
+.footer {
+    width: 300px;
+    margin: 10px auto;
+    color: white;
+}
+
+.footer a {
+    color : #4DD79F;
+    text-decoration: none;
+}
