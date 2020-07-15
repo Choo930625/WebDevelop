@@ -1,4 +1,3 @@
-
 /* Main styling */
 * {
     margin: 0;
@@ -22,7 +21,11 @@ a {
 }
 
 .text-primary {
-    color : #f4c08a;
+    color: #f4c08a;
+}
+
+.clr {
+    clear: both;
 }
 
 /* navbar styling */
@@ -33,7 +36,7 @@ a {
 }
 
 #navbar h1 {
-    float : left;
+    float: left;
     padding: 10px;
 }
 
@@ -47,7 +50,7 @@ a {
 }
 
 #navbar ul li {
-    float : left;
+    float: left;
 }
 
 #navbar ul li a {
@@ -59,7 +62,7 @@ a {
 #navbar ul li a:hover,
 #navbar ul li a.content {
     background-color: #444;
-    color : #f4c08a;
+    color: #f4c08a;
 }
 
 /* showcase */
@@ -75,13 +78,13 @@ a {
 
 .showcase .showcase-content h1 {
     font-size: 40px;
-    color : #fff;
+    color: #fff;
     padding-bottom: 20px;
 }
 
 .showcase .showcase-content p {
     font-size: 25px;
-    color : #fff;
+    color: #fff;
     padding-bottom: 30px;
 }
 
@@ -124,7 +127,7 @@ a {
 
 .sec .sec_content p {
     color: #fff;
-    
+
     margin-top: 20px;
     padding-bottom: 50px;
 }
@@ -132,9 +135,36 @@ a {
 .sec .sec_content a {
     background-color: #fff;
     color: #222;
-    padding : 20px;
+    padding: 20px;
 }
 
 .sec .sec_content a:hover {
     background-color: #f4c08a;
+}
+
+/* section2 */
+
+#sec-2 .box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 40px;
+}
+
+#sec-2 .box i,
+h1 {
+    margin-bottom: 20px;
+}
+
+#sec-2 #box2 {
+    background-color: #f4c08a;
+}
+
+/* footer */
+
+footer {
+    background-color: #444;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
 }
