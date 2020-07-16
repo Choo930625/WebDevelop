@@ -211,7 +211,8 @@ h1 {
 #guest-say {
     background: url('/img/test-bg.jpg') no-repeat center center/cover;
     padding-top: 60px;
-    height: 600px;
+    padding-bottom: 20px;
+    height: 100%;
 }
 
 #guest-say .container {
@@ -257,7 +258,8 @@ h1 {
     display: block;
 }
 
-#contact-sec1 .group input, #contact-sec1 .group textarea {
+#contact-sec1 .group input,
+#contact-sec1 .group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -293,4 +295,3 @@ footer p {
     text-align: center;
     color: #fff;
 }
-
