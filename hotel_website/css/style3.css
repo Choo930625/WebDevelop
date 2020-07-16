@@ -160,6 +160,68 @@ h1 {
     background-color: #f4c08a;
 }
 
+/* about.html */
+
+#about-hotel-info {
+    padding: 30px 0;
+}
+
+#about-hotel-info .container {
+    margin: auto;
+    max-width: 1100px;
+    /* element가 float 일 때 부모 element가 자식 element를 못 감싸는데 overflow:auto;를 주면 감싸준다. */
+    overflow: auto; 
+    padding: 20px;;
+}
+
+#about-hotel-info #info-content {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-hotel-info #info-pic {
+    float : right;
+    width: 50%;
+    height: 100%;
+}
+
+#about-hotel-info #info-pic img {
+    /* display: block; */
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#about-guest-say {
+    background: url('../img/test-bg.jpg');
+    padding: 20px;
+}
+
+#about-guest-say h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#about-guest-say .box {
+    margin-bottom: 40px;
+    background-color: #f4c08a;
+    padding: 20px;
+}
+
+#about-guest-say .box img {
+    float: left;
+    width: 100px;
+}
+
+#about-guest-say .box p {
+    line-height: 1.7em;
+    margin: 10px;
+}
+
+
 /* footer */
 
 footer {
