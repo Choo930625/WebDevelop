@@ -1,0 +1,93 @@
+:root {
+    --sec1-bgcolor: steelblue;
+    --sec2-bgcolor: tan;
+    --sec3-bgcolor: teal;
+    --sec4-bgcolor: slateblue;
+    --animate-speed: 2s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.page h1 {
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+
+.page p {
+    font-size: 1.6rem;
+}
+
+.page a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease-in;
+}
+
+.page a:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+
+#section1 {
+    background: var(--sec1-bgcolor);
+}
+
+#section2 {
+    background: var(--sec2-bgcolor);
+}
+
+#section3 {
+    background: var(--sec3-bgcolor);
+}
+
+#section4 {
+    background: var(--sec4-bgcolor);
+}
+
+/* Animation  */
+#section1 h1 {
+    transform: translateY(-1200px);
+    animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#section1 p {
+    transform: translateX(-1200px);
+    animation: text var(--animate-speed) forwards ease-in 2s;
+}
+
+@keyframes heading {
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes text {
+    to {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    padding: 20px;
+}
+
+.navbar ul li:hover {
+    background: coral;
+    color: #fff;
+}
+
+.navbar ul li ul {
+    display: none;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+    width: 200px;
+}
+
+.navbar ul li:hover ul li {}
+
+section {
+    background: coral;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    text-align: center;
+    color: #fff;
+}
